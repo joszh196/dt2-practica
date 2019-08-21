@@ -1,0 +1,57 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Formulario</title>
+<head>
+
+<body>
+<form action="./formulario.html">
+
+<label for="meta-1">Meta:</label>
+<input type="text" name="meta" id="meta-1" placeholder="Escribe tu meta" required></br>
+
+<label for="descripcion-1">Descripcion:</label>
+<textarea name="descripcion" id="descripcion-1" placeholder="Escribe la descripcion de la meta" rows="3" cols="40"></textarea>
+
+<br>
+<label id="plazo">Plazo</label>
+<select name="plazo" id="plazo">
+	<option value="1">Uno</option>
+	<option value="3">Tres</option>
+	<option value="5">Cinco</option>
+	<option value="10">Diez</option>
+</select>
+<br>
+
+<label for="indispensable">¿Es indispensable?</label>
+<input type="radio" name="indispensable" value="Si">Indispensable
+<input type="radio" name="indispensable" value="No">No puedo vivir sin ella
+
+<br>
+<label for="periodo">¿Cuando se hará?</label>
+<input type="checkbox" name="antes" value="antes">Antes
+<input type="checkbox" name="durantes" value="durante">Durante
+<input type="checkbox" name="despues" value="despues">Despues
+
+<br>
+<label for="fecha">Fecha:</label>
+<input type="date" name="fecha">
+
+<br>
+<label for="edad">Edad:</label>
+<input type="number" name="edad">
+
+<br>
+<input type="hidden" value="0123" name="codigo">
+
+<label for="passcode">Contraseña:</label>
+<input type="password" name="passcode" >
+<br>
+
+<input type="submit" value="Enter">
+<br>
+<button type="submit">Enviar</button>
+
+</form>
+</body>
+</html>
